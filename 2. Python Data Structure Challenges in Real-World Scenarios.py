@@ -21,9 +21,11 @@ def display_library(library):
     if not library:
         print("The library is empty.")
     else:
+        print("\nLibrary Contents:")
         for i, book in enumerate(library, 1):
             title, author = book
             print(f"Book {i}: Title: {title}, Author: {author}")
+            print(library)
             
     
 
